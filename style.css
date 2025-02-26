@@ -2,8 +2,8 @@
     width: 500px;
     height: 400px;
     margin: 0 auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -120,10 +120,13 @@
 /*style javascript*/
 #output{
     font-size: 150%;
+    margin-bottom: 2%;
+    margin-inline-start: 2%;
+
 }
 
 #input {
-    background: rgba(56, 4, 40, 0.9); /* Fond noir transparent (20% opaque) */
+    background: rgba(56, 4, 40, 0.9);
     color: white;
     border: none;
     padding: 8px;
@@ -140,11 +143,11 @@
 
 @keyframes curbl {
     0% {
-        background: #ffffff;
+        background: #fff;
     }
 
     49% {
-        background: #ffffff;
+        background: #fff;
     }
 
     60% {
